@@ -13,8 +13,8 @@ public class Ui {
 
     private static HashMap<String, String> phrases = new HashMap<>();
     {
-        String greet = " Hello! I'm Chimp\n" +
-                " What can I do for you?\n";
+        String greet = " Hello! I'm Chimp\n"
+                        + " What can I do for you?\n";
         String bye = "Bye. Hope to see you again soon!\n";
         String mark = "Nice! I've marked this task as done: \n";
         String unmark = "OK, I've marked this task as not done yet: \n";
