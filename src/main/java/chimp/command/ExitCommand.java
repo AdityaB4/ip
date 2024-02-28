@@ -8,7 +8,7 @@ import chimp.core.Ui;
  * Represents a command to exit the application.
  * When executed, it returns a farewell message and marks the command as an exit command.
  */
-public class ExitCommand extends Command{
+public class ExitCommand extends Command {
 
     /**
      * Executes the exit command.

@@ -12,7 +12,7 @@ import chimp.task.Todo;
 /**
  * Represents a list of tasks.
  */
-public class TaskList extends ArrayList<Task>{
+public class TaskList extends ArrayList<Task> {
 
 
     /**

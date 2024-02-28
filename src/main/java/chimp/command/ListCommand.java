@@ -8,7 +8,7 @@ import chimp.core.Ui;
  * Represents a command to list all tasks.
  * Extends the Command class.
  */
-public class ListCommand extends Command{
+public class ListCommand extends Command {
 
     /**
      * Checks if the command is an exit command.
