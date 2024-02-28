@@ -1,7 +1,17 @@
 package chimp.core;
 
 import java.time.LocalDate;
-import chimp.command.*;
+
+import chimp.command.Command;
+import chimp.command.DeadlineCommand;
+import chimp.command.DeleteCommand;
+import chimp.command.EventCommand;
+import chimp.command.ExitCommand;
+import chimp.command.FindCommand;
+import chimp.command.ListCommand;
+import chimp.command.MarkCommand;
+import chimp.command.TodoCommand;
+import chimp.command.UnmarkCommand;
 import chimp.exception.CommandParseException;
 import chimp.exception.InvalidCommandException;
 
