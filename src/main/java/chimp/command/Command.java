@@ -5,6 +5,9 @@ import chimp.core.TaskList;
 import chimp.core.Ui;
 import chimp.exception.CommandExecuteException;
 
+/**
+ * The base class for all Chimp Commands.
+ */
 public abstract class Command {
     /**
      * Executes the command.

@@ -5,6 +5,9 @@ import chimp.command.*;
 import chimp.exception.CommandParseException;
 import chimp.exception.InvalidCommandException;
 
+/**
+ * Encapsulates parsing logic for all chimp commands.
+ */
 public class Parser {
     /**
      * Parses a given user input to a command.

@@ -18,6 +18,9 @@ import chimp.task.Todo;
 import chimp.task.Deadline;
 import chimp.task.Event;
 
+/**
+ * Encapsulates all storage utilities for Chimp data.
+ */
 public class Storage {
     /**
      * Checks if the given command is a save command.

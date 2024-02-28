@@ -5,9 +5,18 @@ import chimp.core.TaskList;
 import chimp.core.Ui;
 import chimp.exception.CommandExecuteException;
 
+/**
+ * Represents a command to unmark a task in the task list.
+ * Inherits from the Command class.
+ */
 public class UnmarkCommand extends Command {
     int num;
 
+    /**
+     * Constructs a UnmarkCommand object with the specified task number.
+     *
+     * @param num The number of the task to be unmarked.
+     */
     public UnmarkCommand(int num) {
         this.num = num;
     }
@@ -39,5 +48,4 @@ public class UnmarkCommand extends Command {
         tasks.get(num - 1).unmark();
         return ui.say("unmark", tasks.get(num - 1), tasks);
     }
-
 }

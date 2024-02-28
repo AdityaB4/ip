@@ -39,6 +39,10 @@ public class Chimp extends Application {
     private TaskList tasks;
     private Storage storage;
 
+    /**
+     * Constructs a Chimp object.
+     * Initializes the user interface, storage, and tasks.
+     */
     public Chimp() {
         this.ui = new Ui();
         this.storage = new Storage();
