@@ -11,7 +11,7 @@ import chimp.task.Task;
  * Inherits from the Command class.
  */
 public class FindCommand extends Command {
-    String arg;
+    private String arg;
 
     /**
      * Constructs a FindCommand object with the specified keyword.

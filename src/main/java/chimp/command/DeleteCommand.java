@@ -10,7 +10,7 @@ import chimp.task.Task;
  * Represents a command to delete a task from the task list.
  */
 public class DeleteCommand extends Command {
-    int index;
+    private int index;
 
     /**
      * Constructs a DeleteCommand object with the specified index.

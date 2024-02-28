@@ -9,7 +9,7 @@ import chimp.exception.CommandExecuteException;
  * Represents a command to mark a task as completed.
  */
 public class MarkCommand extends Command {
-    int num;
+    private int num;
 
     /**
      * Constructs a MarkCommand object with the specified task number.

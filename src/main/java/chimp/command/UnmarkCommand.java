@@ -10,7 +10,7 @@ import chimp.exception.CommandExecuteException;
  * Inherits from the Command class.
  */
 public class UnmarkCommand extends Command {
-    int num;
+    private int num;
 
     /**
      * Constructs a UnmarkCommand object with the specified task number.

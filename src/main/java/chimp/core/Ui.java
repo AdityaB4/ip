@@ -11,7 +11,7 @@ import chimp.task.Task;
 public class Ui {
     private static final String DIVIDER = "\n";
 
-    static HashMap<String, String> phrases = new HashMap<>();
+    private static HashMap<String, String> phrases = new HashMap<>();
     {
         String greet = " Hello! I'm Chimp\n" +
                 " What can I do for you?\n";

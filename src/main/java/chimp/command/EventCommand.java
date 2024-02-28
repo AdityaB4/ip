@@ -12,9 +12,9 @@ import chimp.exception.CommandExecuteException;
  * Inherits from the Command class.
  */
 public class EventCommand extends Command {
-    String text;
-    LocalDate fromDate;
-    LocalDate toDate;
+    private String text;
+    private LocalDate fromDate;
+    private LocalDate toDate;
 
     /**
      * Constructs an EventCommand object with the specified text, from date, and to date.

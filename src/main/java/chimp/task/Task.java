@@ -4,8 +4,8 @@ package chimp.task;
  * Represents a task with a text description and status.
  */
 public class Task {
-    String text;
-    TaskStatus status;
+    private String text;
+    private TaskStatus status;
 
     /**
      * Constructs a task with the given text and status.
