@@ -13,10 +13,10 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import chimp.task.TaskStatus;
-import chimp.task.Todo;
 import chimp.task.Deadline;
 import chimp.task.Event;
+import chimp.task.TaskStatus;
+import chimp.task.Todo;
 
 /**
  * Encapsulates all storage utilities for Chimp data.
