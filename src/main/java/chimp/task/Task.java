@@ -9,7 +9,7 @@ public class Task {
 
     /**
      * Constructs a task with the given text and status.
-     * 
+     *
      * @param text   the text description of the task
      * @param status the status of the task
      */
@@ -34,7 +34,7 @@ public class Task {
 
     /**
      * Returns a string representation of the task.
-     * 
+     *
      * @return a string representation of the task
      */
     @Override

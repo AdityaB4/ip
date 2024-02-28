@@ -49,7 +49,7 @@ public class Ui {
 
     /**
      * Prints the given new task and the number of tasks in the list.
-     * 
+     *
      * @param task The task to be printed.
      * @param list The task list containing the tasks.
      */
@@ -68,7 +68,7 @@ public class Ui {
     /**
      * Prints a message to the console with information about a task and the current
      * task list size.
-     * 
+     *
      * @param key  the key to retrieve the phrase from the phrases map
      * @param task the task to be displayed
      * @param list the current task list
@@ -110,7 +110,7 @@ public class Ui {
 
     /**
      * Prints all tasks for the "list" command.
-     * 
+     *
      * @param list The task list to be printed.
      */
     public String printList(TaskList list) {

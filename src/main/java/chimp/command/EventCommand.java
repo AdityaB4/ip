@@ -31,7 +31,7 @@ public class EventCommand extends Command {
 
     /**
      * Checks if the command is an exit command.
-     * 
+     *
      * @return true if the command is an exit command, false otherwise.
      */
     @Override
@@ -41,7 +41,7 @@ public class EventCommand extends Command {
 
     /**
      * Executes the event command, adding a new event task to the task list.
-     * 
+     *
      * @param tasks   The task list to add the event task to.
      * @param ui      The user interface to display messages.
      * @param storage The storage to save the updated task list.

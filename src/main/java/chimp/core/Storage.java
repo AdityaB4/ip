@@ -86,7 +86,7 @@ public class Storage {
             // Ignore this error
         } catch (IOException e) {
             e.printStackTrace();
-        } 
+        }
     }
 
     /**
@@ -117,13 +117,13 @@ public class Storage {
 
         Matcher matcher = pattern.matcher(line);
 
-        
+
         if (matcher.find()) {
             String type = matcher.group(1);
             boolean isMarked = matcher.group(2).trim().equals("X");
             String description = matcher.group(3).trim();
             TaskStatus status = isMarked ? TaskStatus.MARKED : TaskStatus.UNMARKED;
-        
+
             switch (type) {
                 case "T":
                     taskList.add(new Todo(description, status));

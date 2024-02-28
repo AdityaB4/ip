@@ -144,7 +144,7 @@ public class Chimp extends Application {
             Storage.saveOutputToFile(this.tasks);
             return response;
         } catch (InvalidCommandException
-                | CommandParseException 
+                | CommandParseException
                 | CommandExecuteException
                 | IndexOutOfBoundsException e) {
             return ui.say("hoo");
